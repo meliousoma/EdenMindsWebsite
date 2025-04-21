@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eden Minds - Premium tutoring for English, Math, and other subjects.">
+    <title>Eden Minds - Tutoring Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#enroll">Enroll</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Eden Minds</h1>
+        <p>Your trusted partner in quality tutoring for English, Math, and more!</p>
+        <a href="#enroll"><button>Enroll Now</button></a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Eden Minds, we provide personalized tutoring services to help students excel academically. Our experienced tutors are dedicated to helping students reach their full potential in subjects like English, Math, Science, and more.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>One-on-one tutoring</li>
+            <li>Online and in-person sessions</li>
+            <li>Custom lesson plans</li>
+            <li>Test preparation and more</li>
+        </ul>
+    </section>
+
+    <section id="enroll">
+        <h2>Enroll Today!</h2>
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Preferred Subject:</label>
+            <select id="subject" name="subject">
+                <option value="English">English</option>
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="message">Additional Notes:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Students Say</h2>
+        <blockquote>
+            "Eden Minds helped me improve my grades. The tutors are very supportive and dedicated!" - Jane Doe
+        </blockquote>
+        <blockquote>
+            "I now feel confident in my Math skills thanks to the personalized lessons." - John Smith
+        </blockquote>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Eden Minds | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

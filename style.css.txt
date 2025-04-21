@@ -1,0 +1,153 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #3b5998;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d4373;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Form Section */
+#enroll {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
